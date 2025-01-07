@@ -1,125 +1,125 @@
 {
-  "players": [
-    {
-      "name": "Tester 1",
-      "surname": "Tester 1",
-      "relation": 1,
-      "id": "1"
-    },
-    {
-      "name": "Tester 2",
-      "surname": "Tester 2",
-      "relation": 1,
-      "id": "2"
-    },
-    {
-      "name": "Tester 3",
-      "surname": "Tester 3",
-      "relation": 1,
-      "id": "3"
-    },
-    {
-      "name": "Tester 4",
-      "surname": "Tester 4",
-      "relation": 2,
-      "id": "4"
-    },
-    {
-      "name": "Tester 5",
-      "surname": "Tester 5",
-      "relation": 2,
-      "id": "5"
-    },
-    {
-      "name": "Tester 6",
-      "surname": "Tester 6",
-      "relation": 2,
-      "id": "6"
-    }
-  ],
-  "teams": [
-    {
-      "nameTeams": "Team_1",
-      "year": 2020,
-      "location": "Gdynia",
-      "teamPlayers": 1,
-      "playerSelect": "",
-      "id": "1"
-    },
-    {
-      "id": "2",
-      "nameTeams": "Team_2",
-      "year": 2018,
-      "location": "Olsztyn",
-      "teamPlayers": 2
-    }
-  ],
-  "games": [
-    {
-      "gameDate": "2024-06-21",
-      "titleOfTheGame": "Liga",
-      "placeOfGame": "PL",
-      "timeOfDuration": 90,
-      "resultA": 1,
-      "relationsGamesA": 1,
-      "resultB": 2,
-      "relationsGamesB": 2,
-      "id": "me21"
-    },
-    {
-      "id": "de17",
-      "gameDate": "2024-06-11",
-      "titleOfTheGame": "Test",
-      "placeOfGame": "PL",
-      "timeOfDuration": 90,
-      "resultA": 2,
-      "relationsGamesA": 1,
-      "resultB": 2,
-      "relationsGamesB": 2
-    },
-    {
-      "id": "be23",
-      "gameDate": "2024-05-23",
-      "titleOfTheGame": "Test2",
-      "placeOfGame": "PL",
-      "timeOfDuration": 90,
-      "resultA": 1,
-      "relationsGamesA": 1,
-      "resultB": 2,
-      "relationsGamesB": 2
-    },
-    {
-      "gameDate": "2024-06-13",
-      "titleOfTheGame": "Test3",
-      "placeOfGame": "PL",
-      "timeOfDuration": 90,
-      "resultA": 1,
-      "relationsGamesA": 1,
-      "resultB": 3,
-      "relationsGamesB": 2,
-      "id": "fp03"
-    },
-    {
-      "id": "be03",
-      "gameDate": "2024-05-16",
-      "titleOfTheGame": "Test4",
-      "placeOfGame": "PL",
-      "timeOfDuration": 90,
-      "resultA": 1,
-      "relationsGamesA": 1,
-      "resultB": 1,
-      "relationsGamesB": 2
-    },
-    {
-      "id": "ee10",
-      "gameDate": "2024-07-26",
-      "titleOfTheGame": "Test5",
-      "placeOfGame": "PL",
-      "timeOfDuration": 90,
-      "resultA": 2,
-      "relationsGamesA": 1,
-      "resultB": 1,
-      "relationsGamesB": 1
-    }
-  ]
+    "players": [
+        {
+            "name": "Tester 1",
+            "surname": "Tester 1",
+            "relation": 1,
+            "id": "1"
+        },
+        {
+            "name": "Tester 2",
+            "surname": "Tester 2",
+            "relation": 1,
+            "id": "2"
+        },
+        {
+            "name": "Tester 3",
+            "surname": "Tester 3",
+            "relation": 1,
+            "id": "3"
+        },
+        {
+            "name": "Tester 4",
+            "surname": "Tester 4",
+            "relation": 2,
+            "id": "4"
+        },
+        {
+            "name": "Tester 5",
+            "surname": "Tester 5",
+            "relation": 2,
+            "id": "5"
+        },
+        {
+            "name": "Tester 6",
+            "surname": "Tester 6",
+            "relation": 2,
+            "id": "6"
+        }
+    ],
+    "teams": [
+        {
+            "nameTeams": "Team_1",
+            "year": 2020,
+            "location": "Gdynia",
+            "teamPlayers": 1,
+            "playerSelect": "",
+            "id": "1"
+        },
+        {
+            "id": "2",
+            "nameTeams": "Team_2",
+            "year": 2018,
+            "location": "Olsztyn",
+            "teamPlayers": 2
+        }
+    ],
+    "games": [
+        {
+            "gameDate": "2024-06-21",
+            "titleOfTheGame": "Liga",
+            "placeOfGame": "PL",
+            "timeOfDuration": 90,
+            "resultA": 1,
+            "relationsGamesA": 1,
+            "resultB": 2,
+            "relationsGamesB": 2,
+            "id": "me21"
+        },
+        {
+            "id": "de17",
+            "gameDate": "2024-06-11",
+            "titleOfTheGame": "Test",
+            "placeOfGame": "PL",
+            "timeOfDuration": 90,
+            "resultA": 2,
+            "relationsGamesA": 1,
+            "resultB": 2,
+            "relationsGamesB": 2
+        },
+        {
+            "id": "be23",
+            "gameDate": "2024-05-23",
+            "titleOfTheGame": "Test2",
+            "placeOfGame": "PL",
+            "timeOfDuration": 90,
+            "resultA": 1,
+            "relationsGamesA": 1,
+            "resultB": 2,
+            "relationsGamesB": 2
+        },
+        {
+            "gameDate": "2024-06-13",
+            "titleOfTheGame": "Test3",
+            "placeOfGame": "PL",
+            "timeOfDuration": 90,
+            "resultA": 1,
+            "relationsGamesA": 1,
+            "resultB": 3,
+            "relationsGamesB": 2,
+            "id": "fp03"
+        },
+        {
+            "id": "be03",
+            "gameDate": "2024-05-16",
+            "titleOfTheGame": "Test4",
+            "placeOfGame": "PL",
+            "timeOfDuration": 90,
+            "resultA": 1,
+            "relationsGamesA": 1,
+            "resultB": 1,
+            "relationsGamesB": 2
+        },
+        {
+            "id": "ee10",
+            "gameDate": "2024-07-26",
+            "titleOfTheGame": "Test5",
+            "placeOfGame": "PL",
+            "timeOfDuration": 90,
+            "resultA": 2,
+            "relationsGamesA": 1,
+            "resultB": 1,
+            "relationsGamesB": 1
+        }
+    ]
 }
