@@ -4,6 +4,8 @@ import { useState } from 'react';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { Players } from './playerBase/Players';
 import { TeamsList } from './teamBase/TeamList';
+import { GameList } from './tournamentBase/GameList';
+import { GameStatistic } from './statistics/StatisticGames';
 
 const queryClient = new QueryClient();
 
@@ -52,6 +54,8 @@ export const App = () => {
                     <Container>
                         <Players />
                         <TeamsList />
+                        <GameList />
+                        <GameStatistic/>
                     </Container>
                 </ThemeProvider>
             </QueryClientProvider>

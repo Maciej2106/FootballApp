@@ -55,3 +55,5 @@ export type GameListEntity = {
     resultB: number;
     relationsGamesB: number;
 };
+
+export type GameListDto = Omit<GameListEntity, 'id'>;
