@@ -3,6 +3,7 @@ import { ButtonBody } from './backgroundBody/ButtonBody';
 import { useState } from 'react';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { Players } from './playerBase/Players';
+import { TeamsList } from './teamBase/TeamList';
 
 const queryClient = new QueryClient();
 
@@ -50,6 +51,7 @@ export const App = () => {
                     <GlobalStyle />
                     <Container>
                         <Players />
+                        <TeamsList />
                     </Container>
                 </ThemeProvider>
             </QueryClientProvider>
